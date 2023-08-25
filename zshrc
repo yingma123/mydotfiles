@@ -110,3 +110,7 @@ export https_proxy="http://$HOSTIP:7890"
 export all_proxy="socks5://$HOSTIP:7890"
 
 export ALL_PROXY="socks5://$HOSTIP:7890"
+
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+bindkey '^ ' autosuggest-accept
